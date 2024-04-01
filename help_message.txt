@@ -1,0 +1,13 @@
+Aquest és un missatge d'ajuda per al script de Python.
+
+Ús: python script.py <paràmetre1>'ex:Nom' <paràmetre2>'ex:Cognom' <paràmetre3>'ex:Edad'
+
+Opcions:
+  -help / -man : Mostra aquest missatge d'ajuda.
+
+El script realitza les següents operacions:
+  - Canvia el hostname de l'equip al desitjat.
+  - Executar un script en Bash.
+  - Realitzar operacions amb fitxers.
+
+Per a més informació, consulta la documentació del script.
